@@ -1,93 +1,62 @@
-#celebrity {
-  display: -webkit-box;
-  display: -ms-flexbox;
+.container {
+  height: 100vh;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  align-items: center;
+}
+.container #celebrity {
+  display: flex;
   margin: auto;
-  padding-top: 0px;
   width: 95%;
 }
-
-#celebrity .celebrity {
-  display: -webkit-box;
-  display: -ms-flexbox;
+.container #celebrity .celebrity {
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
   gap: 15px;
   width: 30%;
 }
-
-#celebrity .celebrity #celebrity-type {
+.container #celebrity .celebrity #celebrity-type {
   margin-top: 10px;
   width: 90%;
 }
-
-#celebrity .celebrity-intro {
+.container #celebrity .celebrity-intro {
   margin-top: 10px;
 }
-
-#celebrity .celebrity-legend-title {
+.container #celebrity .celebrity-legend-title {
   font-size: 12px;
   margin: 0px 0 5px 0;
 }
-
-#celebrity .celebrity-legend-age {
-  display: -webkit-box;
-  display: -ms-flexbox;
+.container #celebrity .celebrity-legend-age {
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
   gap: 5px;
 }
-
-#celebrity .celebrity-legend-age span {
+.container #celebrity .celebrity-legend-age span {
   display: block;
   width: 8px;
   height: 8px;
   border-radius: 50%;
 }
-
-#celebrity .celebrity-legend-age #first {
+.container #celebrity .celebrity-legend-age #first {
   background-color: #ed6a5e;
 }
-
-#celebrity .celebrity-legend-age #second {
+.container #celebrity .celebrity-legend-age #second {
   background-color: #507dbc;
   margin-left: 10px;
 }
-
-#celebrity .celebrity-legend-age #third {
+.container #celebrity .celebrity-legend-age #third {
   background-color: #4c956c;
   margin-left: 10px;
 }
-
-#celebrity .celebrity-legend-age p {
+.container #celebrity .celebrity-legend-age p {
   font-size: 12px;
 }
-
-#celebrity .celebrity #celebrity-line-chart {
+.container #celebrity .celebrity #celebrity-line-chart {
   width: 100%;
   height: 250px;
 }
-
-#celebrity #celebrity-circle-chart {
-  -webkit-box-flex: 1;
-      -ms-flex-positive: 1;
-          flex-grow: 1;
-  display: -webkit-box;
-  display: -ms-flexbox;
+.container #celebrity #celebrity-circle-chart {
+  flex-grow: 1;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-/*# sourceMappingURL=style.css.map */
+  justify-content: center;
+  align-items: center;
+}/*# sourceMappingURL=style.css.map */
